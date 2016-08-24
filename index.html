@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio</title>
+  <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="estilo/normalize.css">
+  <link rel="stylesheet" href="estilo/estilo.css">
+</head>
+<body>
+  <header>
+  	<a href="index.html">
+  		<img class="logo" src="images/logo.png"/>
+  	</a>
+  	<nav>
+  		<ul>
+  			<li><a href="#main">Acerca de mi</a></li>
+  			<li><a href="#desing">Diseños</a></li>
+  			<li><a href="#contact">Contactame</a></li>
+  		</ul>
+  	</nav>
+   <i id="menu" class="fa fa-bars fa-2x" aria-hidden="true">
+   </i>
+  </header>
+
+  <a name="main"></a>
+  <section class="main">
+  	<h1>Mary Ttito</h1>
+  	<div class="imagen">
+  		<img src="images/photo.jpg">
+  		<img class="top" src="images/photo2.jpg">
+  	</div>
+  	<div class="info">
+	  	<ul>
+	  		<li>.:. Tengo 19 años y me gusta programar.</li>
+	  		<li>.:. Especialidad:
+	  			<lu>
+			  		<li><i class="fa fa-female fa-3x" aria-hidden="true"></i>Estudiante de Ingenieria de sistemas</li>
+			  		<li><i class="fa fa-database fa-2x" aria-hidden="true"></i>Base de datos SQL</li>
+			  		<li><i class="fa fa-desktop fa-2x" aria-hidden="true"></i>BackEnd</li>
+			  	</lu>
+	  		</li>
+        <li>.:. Redes:</li>
+  		</ul>
+  		<div class="part">
+	  		<ul>
+		  		<li>
+			  		<a href="https://twitter.com/Mary_Ttito" target="_blank">
+			        <span class="fa-stack fa-2x">
+				        <i class="fa fa-circle fa-stack-2x"></i>
+				        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+			        </span>
+			      </a>
+		  		</li>
+		  		<li>
+			  		<a href="https://github.com/MaryTR" target="_blank">
+			        <span class="fa-stack fa-2x">
+				        <i class="fa fa-circle fa-stack-2x"></i>
+				        <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
+			        </span>
+			      </a>
+		  		</li>
+		  	</ul>
+		  </div>
+
+		  <div class="part dos">
+			  <ul>
+		  		<li>
+		  			<a href="https://www.facebook.com/maryelizabeth.ttitoraymundo" target="_blank">
+		        	<span class="fa-stack fa-2x">
+			          <i class="fa fa-circle fa-stack-2x"></i>
+			          <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+		        </span>
+		        </a>
+		  		</li>
+		  		<li>
+			  		<a href="https://plus.google.com/u/0/105186938386162191910/posts" target="_blank">
+			        <span class="fa-stack fa-2x">
+				        <i class="fa fa-circle fa-stack-2x"></i>
+				        <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+			        </span>
+			      </a>
+		  		</li>
+		  	</ul>
+		  </div>
+
+  	</div>
+  </section>
+
+  <a name="desing"></a>
+  <section class="buttom-one">
+    <a href="#desing"><i class="fa fa-arrow-circle-down fa-4x" aria-hidden="true"></i></a>
+  </section>
+
+  <section class="desing">
+  <h2>Diseños</h2>
+  <div class="contenedorfoto uno">
+  	<img src="images/primer.png"/>
+  </div>
+  <div class="contenedorfoto dos">
+  	<img src="images/segundo.png"/>
+  </div>
+  <div class="contenedorfoto tres">
+  	<img src="images/tercero.png"/>
+  </div>
+  <div class="contenedorfoto cuatro">
+  	<img src="images/cuarto.png"/>
+  </div>
+  </section>
+
+  <a name="contact"></a>
+  <section class="buttom-two">
+    <a href="#contact"><i class="fa fa-arrow-circle-down fa-4x" aria-hidden="true"></i></a>
+  </section>
+
+  <section class="contact">
+      <div class="desc">
+        <h2>Contacto:</h2>
+      </div>
+    	<form action="mailto:ttito.mary@gmail.com" class="formulario" method="post">
+        <div class="input-group">
+            <i class="fa fa-user fa-2x"></i>
+        		<input type="text" name="name" placeholder="Tu Nombre" maxlength="50"></input>
+        </div>
+        <div class="input-group">
+            <i class="fa fa-envelope-o fa-2x"></i>
+        		<input type="email" name="email" placeholder="Tu Correo"
+            maxlength="50"></input>
+        </div>
+        <div class="input-group">
+            <i class="fa fa-pencil fa-2x"></i>
+        		<textarea name="suggest" placeholder="Tu sugerencia"></textarea>
+        </div>
+      		<input class="btn" type="submit" value="ENVIAR INFORMACIÓN"></input>
+    	</form>
+  </section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

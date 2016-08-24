@@ -1,0 +1,480 @@
+header{
+  background:rgba(0,0,0,.4); 
+  height: 13%;
+  padding: 0 8%;
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 100;
+}
+
+.logo{
+  width: 16%;
+  transition: all 5s ease;
+}
+
+.logo:hover{
+  transform: rotateY(360deg);
+}
+
+nav{
+  float: right;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+nav li{
+  display: inline-block;
+  list-style-type: none;
+  line-height: 80px;
+  margin-right:25px;
+}
+
+nav li a{
+  text-decoration: none;
+  color: #E8FFFF;
+  font-size: 16px;
+  font-weight: bolder;
+  transition: all 0.5s ease;
+  padding: 10px;
+  border-bottom: 3px solid rgba(0,0,0,0);
+
+}
+
+nav li a:hover{
+  color: #9bf0e1;
+  border-bottom: 3px solid #9bf0e1;
+}
+
+/*--------------------------------------------------*/
+.main{
+  background-image: url("../images/fondo.png"), linear-gradient(to bottom left,#C03E94,#E8DED4,#7AD7CD,#255897);
+  padding: 7% 10% 10% 10% ;
+}
+
+.main h1{
+  font-size: 60px;
+  font-weight: 800;
+  text-align: center;
+  color: #8738F8;
+  letter-spacing: 0.01em;
+}
+
+.imagen{
+  position: relative;
+  width: 35%;
+}
+.imagen img {
+  position: absolute;
+  width: 100%;
+  border-radius: 50%;
+  transition: opacity 1.5s ease-in-out;
+}
+.imagen img.top:hover {
+  opacity: 0;
+}
+
+.info{
+  background-color: rgba(0,0,0,.05);
+  border-radius: 5%;
+  padding: 3% 8%;
+  margin-left: 55%;
+}
+.info ul{
+  font-weight: bolder;
+  line-height: 2.5;
+  padding: 0 0;
+}
+
+.info li{
+  font-size: 14px;
+  color: #47484B;
+  list-style-type: none;
+  word-break: break-all;
+}
+
+.info .fa-female{
+  color: #FF4FC4;
+  margin: 5px 7px;
+}
+.info .fa-database{
+  color: #FFED3D;
+  margin: 5px 10px;
+}
+.info .fa-desktop{
+  color: #4F6CFF;
+  margin: 5px 7px;
+}
+.part{
+  display: inline-block;
+  margin-top: -10%;
+}
+.part li .fa-stack{
+  color: rgba(0,0,0,.2);
+  transition: all 0.5s ease;
+}
+.part li .fa-stack:hover{
+  transform: scale(1.2);
+}
+.part li .fa-inverse{
+  color: #BBFFA2;
+  transition: all 0.5s ease
+}
+.part li .fa-inverse:hover{
+  color: #1EFF37
+}
+/*--------------------------------------------------*/
+.buttom-one{
+  text-align: center;
+  padding: 0 10%;
+  margin-top: -2.4%;
+}
+.buttom-two{
+  text-align: center;
+  padding: 0 10%;
+  margin-bottom: -2.4%;
+}
+.fa-arrow-circle-down{
+  color: #00ffa9;
+  transition: all 0.5s ease;
+}
+.fa-arrow-circle-down:hover{
+  transform: scale(1.2);
+  color: #1D9C73;
+}
+/*--------------------------------------------------*/
+.desing{
+  padding: 7% 10% 10% 10% ;
+}
+.desing h2{
+  font-size: 40px;
+  font-weight: bolder;
+  color: #8738F8;
+  letter-spacing: 0.01em;
+  margin: 0 0 4% 0;
+  padding-bottom: 1%;
+  border-bottom: 3px solid #8738F8;
+}
+.desing img{
+  width: 100%;
+  border-radius: 5%;
+}
+.contenedorfoto {
+  width:40%;
+  display: inline-block;
+  border-radius: 5%;
+  border-right: #a5a7aa solid 3px;
+  border-bottom: #a5a7aa solid 3px;
+  transition: all 0.5s ease;
+
+}
+
+.contenedorfoto.uno{
+  margin-left: 5%;
+  margin-bottom: 6%;
+}
+.contenedorfoto.dos{
+  margin-left: 10%;
+  margin-bottom: 6%;
+}
+.contenedorfoto.tres{
+  margin-left: 5%;
+}
+.contenedorfoto.cuatro{
+  margin-left: 10%;
+}
+
+.contenedorfoto:hover{
+  box-shadow: 0 0 20px rgba(0,0,0,.8);
+  transform: scale(1.1);
+}
+
+/*--------------------------------------------------*/
+.contact{
+  background-image: url("../images/fondo.png"), linear-gradient(to bottom left,#C03E94,#E8DED4,#7AD7CD,#255897);
+  padding: 7% 10% 10% 10%;
+}
+
+.desc{
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 20%;
+  margin-left: 5%;
+}
+
+.desc h2{
+  font-size: 40px;
+  font-weight: bolder;
+  color: #8738F8;
+  letter-spacing: 0.01em;
+  text-decoration: underline;
+}
+
+.formulario{
+  background-color: rgba(0,0,0,.05);
+  box-shadow: 0 0 20px rgba(0,0,0,.3);
+  display: inline-block;
+  width: 40%;
+  padding: 5%;
+  margin-left: 20%;
+}
+input[type="text"],input[type="email"],textarea{
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #303F9F;
+  padding: 2% 10%;
+  box-sizing:border-box;
+  margin-top: 8%;
+  outline: none;
+  word-break: break-all;
+}
+
+textarea{
+  min-height: 100px;
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 100px;
+}
+
+input[type="text"],input[type="email"]{
+  width: 100%;
+}
+
+input[type="text"]:focus,input[type="email"]:focus,textarea:focus{
+  border-bottom: 2px solid #FF4B4B;
+}
+.input-group{
+  position: relative;
+}
+.input-group .fa{
+  color:#303F9F;
+  position: absolute;
+  margin-top: 8%;
+  padding-right: 3%;
+}
+.btn{
+  border-radius: 30px;
+  border-style: solid;
+  border-color: #FF4B4B;
+  background-color: transparent;
+  color: #FF4B4B;
+  font-size: 18px;
+  width: 72%;
+  padding: 2% 0;
+  text-transform: uppercase;
+  word-break: break-all;
+  transition-duration: 0.5s;
+  margin: 10% 10% 8% 10%;
+  outline: none;
+}
+.btn:hover{
+  background-color: #FF4B4B;
+  color:white;
+}
+
+/*--------------------------------------------------*/
+.fa-bars{
+  display: none;
+}
+
+@media screen and (max-width: 1024px){
+  .logo{
+    padding-top: 1%;
+  }
+
+
+  .imagen{
+    margin-right: 32.4%;
+    margin-left:32.4%;
+    margin-bottom: 45%;
+  }
+  .info{
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+  }
+
+  .buttom-one{
+  margin-top: -3.4%;
+  }
+  .buttom-two{
+  margin-bottom: -3.4%;
+  }
+
+
+  .desc{
+    width: 100%;
+    margin-left: 0;
+  }
+  .formulario{
+    display: block;
+    margin-left: 25%;
+    margin-right: 20%;
+  }
+  .btn{
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  nav{
+    display: none;
+  }
+  nav.mostrar{
+    display: block;
+    position: fixed;
+    z-index: 100;
+    top: 13%;
+    left: 0;
+    width: 100%;
+    background:rgba(0,0,0,.4); 
+  }
+  nav.mostrar li{
+    display: block;
+    padding-left: 1em;
+    line-height: 3.5;
+  }
+  .logo{
+    width: 25%;
+    margin-top: 0.4%;
+  }
+  .fa-bars{
+    padding-top: 4%;
+    display: inline-block;
+    float: right;
+  }
+
+
+  .info{
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+  }
+
+
+  .buttom-one{
+  margin-top: -4.4%;
+  }
+  .buttom-two{
+  margin-bottom: -4.4%;
+  }
+
+
+  .contenedorfoto {
+    width: 70%;
+    display: block;
+  }
+  .contenedorfoto.uno{
+    margin-left: 15%;
+    margin-bottom: 6%;
+  }
+  .contenedorfoto.dos{
+    margin-left: 15%;
+    margin-bottom: 6%;
+  }
+  .contenedorfoto.tres{
+    margin-left: 15%;
+    margin-bottom: 6%;
+  }
+  .contenedorfoto.cuatro{
+    margin-left: 15%;
+  }
+
+
+  .formulario{
+    margin-left: 15%;
+    width: 60%;
+  }
+
+}
+
+@media screen and (max-width: 640px){
+  .info{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+
+
+  .buttom-one{
+  margin-top: -5.4%;
+  }
+  .buttom-two{
+  margin-bottom: -5.4%;
+  }
+
+
+  .formulario{
+    margin-left: 10%;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .logo{
+    padding-top: 2%;
+    width: 35%;
+  }
+  .fa-bars{
+    padding-top: 6%;
+  }
+  .imagen{
+    margin-bottom: 50%;
+  }
+  .info{
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+  }
+  .buttom-one{
+  margin-top: -6.4%;
+  }
+  .buttom-two{
+  margin-bottom: -6.4%;
+  }
+  .formulario{
+    margin-left: 4%;
+    width: 80%;
+  }
+  
+  input[type="text"],input[type="email"],textarea{
+  padding: 2% 14%;
+  word-break: break-all;
+}
+}
+
+@media screen and (max-width: 320px){
+  .main h1{
+    margin-top: 18%;
+    font-size: 40px;
+  }
+  .imagen{
+    margin-bottom: 60%;
+  }
+  .info li{
+    font-size: 12px;
+  }
+  .buttom-one{
+  display: none;
+  }
+  .buttom-two{
+  display: none;
+  }
+  .desing h2{
+    font-size: 20px;
+  }
+  .desc h2{
+    font-size: 20px;
+  }
+  .formulario{
+    font-size: 12px;
+  }
+  input[type="text"],input[type="email"],textarea{
+  padding: 2% 14%;
+  word-break: break-all;
+}
+  .btn{
+    font-size: 10px;
+  }
+}
+/*--------------------------------------------------*/
